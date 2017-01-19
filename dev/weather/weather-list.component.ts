@@ -11,7 +11,7 @@ import {WeatherService} from "./weather.service";
 		</section>
 	`,
 	directives: [WeatherItemComponent],
-	providers: [WeatherService]
+	styleUrls: ['src/css/weather-item.css']
 })
 
 export class WeatherListComponent implements OnInit{
