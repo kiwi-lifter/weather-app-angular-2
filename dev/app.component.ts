@@ -12,13 +12,13 @@ import {WeatherSearchComponent} from "./weather/weather-search.component";
 		</header>
 	</div>
 	<div class="row">
-		<div class="col">
+		<div class="col-md-3">
 			<my-sidebar></my-sidebar>
 		</div>
-		<div class="col">
+		<div class="col-md-6">
 			<my-weather-search></my-weather-search>
 		</div>
-		<div class="col">
+		<div class="col-md-3">
 			<weather-list></weather-list>
 		</div>
 	</div>	
